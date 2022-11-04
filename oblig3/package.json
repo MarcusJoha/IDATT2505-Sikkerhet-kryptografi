@@ -1,0 +1,16 @@
+{
+  "name": "oblig3",
+  "version": "1.0.0",
+  "description": "cd backend # Make sure you have node installed npm init -y npm install express # run application node server.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

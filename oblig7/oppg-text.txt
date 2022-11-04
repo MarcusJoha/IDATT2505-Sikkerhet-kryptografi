@@ -1,0 +1,9 @@
+
+
+------- Oppg 3 --------
+
+b)
+f er en permutasjon av Z-29 fordi mengden av input gir et output som er i samme mengde,
+altså alfabetet i dette tilfellet.
+
+
