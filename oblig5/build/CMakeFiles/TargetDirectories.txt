@@ -1,0 +1,9 @@
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/CMakeFiles/main.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/CMakeFiles/test.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/CMakeFiles/edit_cache.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/CMakeFiles/rebuild_cache.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/tests/CMakeFiles/utility_test.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/tests/CMakeFiles/utility_fuzzer_test.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/tests/CMakeFiles/test.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/tests/CMakeFiles/edit_cache.dir
+/home/marcusj/Skrivebord/sikkerhet-i-programvare-og-kryptografi/oblig5/build/tests/CMakeFiles/rebuild_cache.dir
