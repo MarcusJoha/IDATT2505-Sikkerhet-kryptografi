@@ -25,7 +25,7 @@ def cbc_decrypt(text):
     current = ce_re(alpha.find(text[0]), 3)
     index = xor(13, current)
     decrypt += alpha[index]
-    return decrypt
+    return decrypt[::-1]
     
 
 if __name__ == '__main__':
@@ -35,5 +35,5 @@ if __name__ == '__main__':
     
     print(cbc_decrypt("oqsuwy"))
     
-    print(cbc_decrypt("qvxæyy hkgdgk,,oqhdnc")[::-1])
+    print(cbc_decrypt("qvxæyy hkgdgk,,oqhdnc"))
     
