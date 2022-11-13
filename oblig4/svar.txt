@@ -1,0 +1,8 @@
+Oppg 3)
+
+Trenger bare å oppdatere det dynamiske biblioteket ettersom programmet
+er linket til det ved kjøretid.
+
+1. gcc -c -fPIC *.c
+2. gcc -shared *.o -o libfunctions.so
+3. sudo cp libfunctions.so /usr/lib
