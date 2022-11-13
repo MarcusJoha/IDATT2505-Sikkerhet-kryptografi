@@ -1,0 +1,3 @@
+
+ek1(x1) * ek2(x2) mod(n) = ek(x1*x2) mod(n)
+

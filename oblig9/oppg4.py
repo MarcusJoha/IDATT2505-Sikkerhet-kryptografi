@@ -58,7 +58,7 @@ if __name__ == '__main__':
     
     print((923827*1388389)%3)
     
-    # Fikk litt hjelp med å finne riktige nøkkelparr 
+    # Fikk litt hjelp med å finne riktige keypair
     encrypted = rsa.rsa_cryptate(12345, 3, 1388389)
     print("Meldingen '12345' kryptert: ", encrypted)
     decrypted = rsa.rsa_decryptate(encrypted,923827, 1388389)
