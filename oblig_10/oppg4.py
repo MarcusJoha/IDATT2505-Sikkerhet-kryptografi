@@ -1,18 +1,18 @@
 import math
 import numpy as np
 
-# Shanks algoritme for å løse DLP for p=41, alpha=5, beta=3
+# Shanks algoritme for å løse DLP for p=41, a_list=5, b_list=3
 def shank(p:int, a:int, b:int):
-    alpha = []
-    beta = []
+    a_list = []
+    b_list = []
     m = math.ceil(math.sqrt(p))
     for j in range(0, m):
         val = (pow(a,m*j))%p
-        alpha.append(val)
+        a_list.append(val)
     for j in range(0,m):
         val = (b*pow(a,-j,p))%p
-        beta.append(val)
-    return m,alpha,beta
+        b_list.append(val)
+    return m,a_list,b_list
 
 
 if __name__ == '__main__':
@@ -25,19 +25,19 @@ if __name__ == '__main__':
     
     common_val = 0
     
-    m,alpha,beta = shank(p, a,b)
+    m,a_list,b_list = shank(p, a,b)
     
-    print(alpha)
-    print(beta)
+    print(a_list)
+    print(b_list)
     
     log = lambda base, x: np.log(x)/np.log(base)
     func = lambda m,j,i,p: (m*j +i)%p
     
-    for i in range(len(alpha)):
-        if beta[i] in alpha:
-            common_val = beta[i]
+    for i in range(len(a_list)):
+        if b_list[i] in a_list:
+            common_val = b_list[i]
             b_index = i
-    a_index = alpha.index(common_val)
+    a_index = a_list.index(common_val)
     
     print("\ncommon value {} at a_index: {}, b_index: {}".format(common_val,a_index, b_index))
     val = func(m,a_index, b_index,p)

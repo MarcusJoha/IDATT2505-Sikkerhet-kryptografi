@@ -19,10 +19,11 @@ def find_primitive_element(z_range: int):
                 pair = "({}^{})%{}={} og gcd({},{})={}\n".format(i,j,j,pri_el,j,z_range-1,gcd_calc)
                 prim_el_list.append(pair)
     return prim_el_list
-
+    
 
 if __name__ == '__main__':
 
     print("1) og 3)\nPrimitive element in Zp\n")
+    
     [print(i) for i in find_primitive_element(17)]
     
