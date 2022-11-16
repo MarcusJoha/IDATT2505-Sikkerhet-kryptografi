@@ -24,6 +24,5 @@ def find_primitive_element(z_range: int):
 if __name__ == '__main__':
 
     print("1) og 3)\nPrimitive element in Zp\n")
-    for i in find_primitive_element(17):
-        print(i)
+    [print(i) for i in find_primitive_element(17)]
     
